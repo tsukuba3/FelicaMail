@@ -1,0 +1,14 @@
+D:\vs2015\FelicaLiteSAspNet\FelicaLiteSAspNet\bin\Debug\FelicaLiteSAspNet.exe.config
+D:\vs2015\FelicaLiteSAspNet\FelicaLiteSAspNet\bin\Debug\FelicaLiteSAspNet.exe
+D:\vs2015\FelicaLiteSAspNet\FelicaLiteSAspNet\bin\Debug\FelicaLiteSAspNet.pdb
+D:\vs2015\FelicaLiteSAspNet\FelicaLiteSAspNet\obj\Debug\FelicaLiteSAspNet.csprojResolveAssemblyReference.cache
+D:\vs2015\FelicaLiteSAspNet\FelicaLiteSAspNet\obj\Debug\MainWindow.g.cs
+D:\vs2015\FelicaLiteSAspNet\FelicaLiteSAspNet\obj\Debug\App.g.cs
+D:\vs2015\FelicaLiteSAspNet\FelicaLiteSAspNet\obj\Debug\FelicaLiteSAspNet_MarkupCompile.cache
+D:\vs2015\FelicaLiteSAspNet\FelicaLiteSAspNet\obj\Debug\FelicaLiteSAspNet_MarkupCompile.lref
+D:\vs2015\FelicaLiteSAspNet\FelicaLiteSAspNet\obj\Debug\MainWindow.baml
+D:\vs2015\FelicaLiteSAspNet\FelicaLiteSAspNet\obj\Debug\FelicaLiteSAspNet.g.resources
+D:\vs2015\FelicaLiteSAspNet\FelicaLiteSAspNet\obj\Debug\FelicaLiteSAspNet.Properties.Resources.resources
+D:\vs2015\FelicaLiteSAspNet\FelicaLiteSAspNet\obj\Debug\FelicaLiteSAspNet.csproj.GenerateResource.Cache
+D:\vs2015\FelicaLiteSAspNet\FelicaLiteSAspNet\obj\Debug\FelicaLiteSAspNet.exe
+D:\vs2015\FelicaLiteSAspNet\FelicaLiteSAspNet\obj\Debug\FelicaLiteSAspNet.pdb
