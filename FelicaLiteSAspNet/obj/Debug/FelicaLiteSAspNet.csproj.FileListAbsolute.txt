@@ -12,3 +12,6 @@ D:\vs2015\FelicaLiteSAspNet\FelicaLiteSAspNet\obj\Debug\FelicaLiteSAspNet.Proper
 D:\vs2015\FelicaLiteSAspNet\FelicaLiteSAspNet\obj\Debug\FelicaLiteSAspNet.csproj.GenerateResource.Cache
 D:\vs2015\FelicaLiteSAspNet\FelicaLiteSAspNet\obj\Debug\FelicaLiteSAspNet.exe
 D:\vs2015\FelicaLiteSAspNet\FelicaLiteSAspNet\obj\Debug\FelicaLiteSAspNet.pdb
+D:\vs2015\FelicaLiteSAspNet_GItHub\FelicaLiteSAspNet\bin\Debug\FelicaLiteSAspNet.exe.config
+D:\vs2015\FelicaLiteSAspNet_GItHub\FelicaLiteSAspNet\obj\Debug\FelicaLiteSAspNet.exe
+D:\vs2015\FelicaLiteSAspNet_GItHub\FelicaLiteSAspNet\obj\Debug\FelicaLiteSAspNet.pdb

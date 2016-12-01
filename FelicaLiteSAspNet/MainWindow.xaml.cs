@@ -93,5 +93,14 @@ namespace FelicaLiteSAspNet
             client.OpenRead(url);
 
         }
+
+        private void WriteName_Click(object sender, RoutedEventArgs e)
+        {
+            Byte[] wData = Encoding.UTF8.GetBytes(Name.Text);
+
+            FelicaRW_main(4, wData, false);
+
+            MessageBox.Show("書き込みが完了しました");
+        }
     }
 }
