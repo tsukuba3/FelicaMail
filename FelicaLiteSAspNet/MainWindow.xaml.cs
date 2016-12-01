@@ -29,6 +29,9 @@ namespace FelicaLiteSAspNet
         [DllImport("MyFelicaLiteS.dll")]
         public extern static IntPtr GetData();
 
+        [DllImport("kernel32.dll", CharSet = CharSet.Auto, SetLastError = true)]
+        private static extern int MultiByteToWideChar(int codepage, int flags, IntPtr utf8, int utf8len, StringBuilder buffer, int buflen);
+
         int bankNum = 0;
 
         public MainWindow()
@@ -52,7 +55,7 @@ namespace FelicaLiteSAspNet
             MessageBox.Show("書き込みが完了しました");
         }
 
-        private void Read_Click(object sender, RoutedEventArgs e)
+        unsafe private void Read_Click(object sender, RoutedEventArgs e)
         {
             FelicaRW_main(0, null, true);
 
@@ -62,7 +65,17 @@ namespace FelicaLiteSAspNet
             String[] args = str.Split(',');
 
             po = GetName();
-            String name = Marshal.PtrToStringUni(po);
+
+            int len = MultiByteToWideChar(65001, 0, po, -1, null, 0);
+
+            if (len == 0)
+                throw new System.ComponentModel.Win32Exception();
+
+            var buf = new StringBuilder(len);
+
+            len = MultiByteToWideChar(65001, 0, po, -1, buf, len);
+
+            String name = buf.ToString();
 
             LName.Content = name;
             Userid.Text = args[2];
